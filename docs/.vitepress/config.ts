@@ -42,6 +42,15 @@ export default defineConfig({
           ],
         },
       ],
+      "/web3/":[
+        {
+          text: "Web3",
+          collapsed: true,
+          items: [
+            { text: "关于Web3", link: "/web3/presentation/index.md" },
+          ],
+        },
+      ],
     },
     footer: {
       message: "Released under the MIT License.",
